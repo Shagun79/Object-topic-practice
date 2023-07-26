@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>introduction</title>
+  </head>
+
+  <body>
+
+    <h1>  HOW TO ITERATE EACH ELEMENT IN A OBJECT USING  <B> FOR IN LOOP</B></h1>
+    <h1>properties</h1>
+    first move loop= in a = we get first property of object: First_name;
+    second move  loop= in a = we get second property of Object: Last_name;
+    third move:   loop= in a= we get third property of Object: Age; 
+     <h1> value</h1>
+
+    <script>
+      let person = { First_name: "Shagun", Last_name: "Jaiswal" };
+      person.Age=25;
+
+      for (let a in person) {
+        console.log(a +":"+ person[a]);
+      }
+    </script>
+  </body>
+</html>
+ 
